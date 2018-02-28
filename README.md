@@ -12,7 +12,7 @@ None
 
 ## Install
 To install the script run the following command:
-```python
+```shell
 python setup.py install --user
 ```
 
