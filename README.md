@@ -4,6 +4,7 @@ Small script to convert a csv output from ilastik manual tracking into a tulip f
 
 ## Content
 - README.md: this file
+- setup.py: install script
 - ilastik2tlp.py: the converting script
 - Data/divsions15.csv: a test file
 
