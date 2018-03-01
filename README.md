@@ -1,6 +1,6 @@
 # ilastik2tlp
 
-Small script to convert a csv output from ilastik manual tracking into a tulip friendly file
+Small script to convert a csv output from [ilastik](http://ilastik.org/ "ilastik") manual tracking into a [tulip](http://tulip.labri.fr/TulipDrupal/ "tulip") friendly file
 
 ## Content
 - README.md: this file
