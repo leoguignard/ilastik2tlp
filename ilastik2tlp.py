@@ -26,6 +26,11 @@ def write_tlp_from_lin_tree(name, lin_tree):
         count_edges+=1
         for d in ds:
             f.write("(edge " + str(count_edges) + " " + str(id_corres[m]) + " " + str(id_corres[d]) + ")\n")
+    f.write("(property 0 int \"ilastik-id\"\n")
+    f.write("\t(default \"0\" \"0\")\n")
+    for node, id_ in id_corres.iteritems():
+        f.write("\t(node " + str(id_) + str(" \"") + str(node[0]) + "\")\n")
+    f.write(")\n")
     f.write(")")
     f.close()
 
